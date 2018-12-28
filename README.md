@@ -6,9 +6,9 @@ Two instance methods were added to String — String.prototype.padStart and 
 Example:
       'someString'.padStart(numberOfCharcters [,stringForPadding]); 
       '5'.padStart(10) // '          5'
-      '5'.padStart(10, '=*') //'=*=*=*=*=5'
+      '5'.padStart(10, '=$') //'=$=$=$=$=5'
       '5'.padEnd(10) // '5         '
-      '5'.padEnd(10, '=*') //'5=*=*=*=*='
+      '5'.padEnd(10, '=$') //'5=$=$=$=$='
       
 ⚠️ padStart and padEnd on Emojis and other double-byte chars
  
